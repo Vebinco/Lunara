@@ -1,0 +1,28 @@
+{
+  "name": "lunara",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://vebinco.github.io/Lunara",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "framer-motion": "^10.16.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.5.2",
+    "react-router-dom": "^6.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "gh-pages": "^6.3.0",
+    "vite": "^4.4.5"
+  }
+}
